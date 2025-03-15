@@ -29,7 +29,7 @@ resource "azurerm_consumption_budget_subscription" "example" {
     operator  = "GreaterThan"
 
     contact_emails = [
-      "seshimo3594@gmail.com"
+      "@gmail.com"
     ]
   }
   notification {
@@ -38,7 +38,7 @@ resource "azurerm_consumption_budget_subscription" "example" {
     operator  = "GreaterThan"
 
     contact_emails = [
-      "seshimo3594@gmail.com"
+      "@gmail.com"
     ]
   }
 }
